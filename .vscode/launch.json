@@ -11,9 +11,12 @@
             "program": "${workspaceFolder}/target/debug/aoc23",
             "args": [
                 "day1",
-                "example"
+                "x"
             ],
-            "cwd": "${workspaceFolder}"
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "RUST_BACKTRACE": "1",
+            },
         },
     ]
 }
