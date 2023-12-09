@@ -10,8 +10,8 @@
             "name": "lldb aoc23",
             "program": "${workspaceFolder}/target/debug/aoc23",
             "args": [
-                "day5",
-                "example"
+                "day8",
+                "example3"
             ],
             "cwd": "${workspaceFolder}",
             "env": {
