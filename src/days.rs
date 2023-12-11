@@ -8,6 +8,7 @@ mod day7;
 mod day8;
 mod day9;
 mod day10;
+mod day11;
 
 pub const DAYS: &[(&'static str, fn(&str) -> (String, String))] = &[
     ("day1", day1::main),
@@ -20,4 +21,5 @@ pub const DAYS: &[(&'static str, fn(&str) -> (String, String))] = &[
     ("day8", day8::main),
     ("day9", day9::main),
     ("day10", day10::main),
+    ("day11", day11::main),
 ];
