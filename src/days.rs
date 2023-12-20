@@ -10,6 +10,7 @@ mod day17;
 mod day18;
 mod day19;
 mod day2;
+mod day20;
 mod day3;
 mod day4;
 mod day5;
@@ -38,4 +39,5 @@ pub const DAYS: &[(&'static str, fn(&str) -> (String, String))] = &[
     ("day17", day17::main),
     ("day18", day18::main),
     ("day19", day19::main),
+    ("day20", day20::main),
 ];
