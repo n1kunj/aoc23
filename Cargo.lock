@@ -64,6 +64,7 @@ name = "aoc23"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "combinatorial",
  "nalgebra",
  "once_cell",
  "rayon",
@@ -189,6 +190,12 @@ name = "colorchoice"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
+
+[[package]]
+name = "combinatorial"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7bdaf2f71259174671afdb568c8d911635472605f7f4be8b6c08bcc69ea3ed84"
 
 [[package]]
 name = "crossbeam-deque"
